@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+
+
+.carousel-caption { 
+    
+    position: absolute;
+    height: 70%;
+    text-align: right;    
+    width: 70%;
+    color: white;
+
+   
+
+}
+.containerBox {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.text-box {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    height: 50%;
+    text-align: right;    
+    width: 50%;  
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.oradores {
+
+    text-align: center;
+  }
+
+.containerbutton{
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    height: 20px;
+  }
+
+
+  .anotate{
+
+    text-align: center;
+  }
+  .charla{
+  
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+  }
+
+  .formulario{
+
+    width:50%;
+    height: auto;
+    margin:auto;
+  }
+
+
+  .pie {
+
+    color:white;
+    background-color: #1f5271;
+    height: 90px;
+  
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 0px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 50%;
+
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;}
+    }
+
+.cuadros-texto{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+ 
+ 
+  
+ 
+}
+
+.cuadro1{
+  border-style: solid; 
+  border-color:#aad3ff;
+  padding: 38px;
+  margin: 3px;
+  
+
+}
+  
+.cuadro2{
+  border-style: solid; 
+  border-color: #a7d5dd;
+  padding: 38px;
+  margin: 3px;
+}
+.cuadro3{
+  border-style: solid; 
+  border-color:#f4e0a2;
+  padding: 38px;
+  margin: 3px;
+}
